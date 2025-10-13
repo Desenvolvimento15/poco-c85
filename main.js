@@ -1,19 +1,9 @@
-$(".slick-slider").not(".slick-initialized").slick({
-  lazyLoad: "ondemand",
-  arrows: false,
-  dots: false,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  autoplay: true,
-  autoplaySpeed: 3000,
-});
-
 
 
 
 document.addEventListener("DOMContentLoaded", function () {
   const dots = document.querySelectorAll(".slick-dots li");
-  const slides = document.querySelectorAll(".slick-slide");
+  const slides = document.querySelectorAll(".slick-slide-1");
   const colors = document.querySelectorAll(".text-box .flex-item");
   const texts = document.querySelectorAll(".div59 .xm-text");
 
@@ -60,3 +50,14 @@ document.addEventListener("DOMContentLoaded", function () {
   // Inicializa o primeiro ativo
   activateItem(0);
 });
+
+
+
+$(".slick-end").slick({
+        arrows: false,
+        dots: false,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 5000,
+    });
