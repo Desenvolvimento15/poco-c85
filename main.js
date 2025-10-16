@@ -1,6 +1,3 @@
-
-
-
 document.addEventListener("DOMContentLoaded", function () {
   const dots = document.querySelectorAll(".slick-dots li");
   const slides = document.querySelectorAll(".slick-slide-1");
