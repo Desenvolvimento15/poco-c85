@@ -1,0 +1,3776 @@
+
+li {
+  list-style: none;
+}
+
+html > img,
+head > img,
+body > img {
+  z-index: -10;
+  opacity: 0;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.xm-link {
+  text-decoration: none;
+  display: inline-block;
+}
+.xm-link.xm-button {
+  background-color: transparent;
+  background-color: initial;
+}
+.xm-button {
+  padding: 0.25rem;
+}
+.xm-text {
+  display: inline-block;
+  white-space: break-spaces !important;
+}
+.xm-text a {
+  color: #00f;
+  text-decoration: underline;
+}
+.xm-text sub,
+.xm-text sup {
+  font-feature-settings: "tnum";
+  vertical-align: super;
+  font-size: 0.4em;
+  font-weight: 400;
+  top: -0.6em;
+  left: 0.6em;
+}
+.xm-blur {
+  opacity: 0.3 !important;
+}
+.hide {
+  display: none !important;
+}
+.xm-page-hide {
+  height: 0;
+  position: absolute;
+}
+.xm-update {
+  position: relative;
+}
+.xm-update:after {
+  content: "";
+  border: 0.04167rem solid #ff0;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.xm-picture .xm-img {
+  width: 100%;
+}
+.xm-img {
+  color: transparent;
+}
+.xm-img[src=""],
+.xm-img:not([src]) {
+  visibility: hidden;
+}
+.xm-picture {
+  display: inline-flex;
+}
+.section {
+  background-repeat: no-repeat;
+  margin-bottom: -1px;
+  position: relative;
+}
+.xm-page-area > main,
+.xm-page-area_mobile > main {
+  z-index: 1;
+  position: relative;
+}
+.xm-page-area > main {
+  width: 100% !important;
+}
+
+.poco-bg-color {
+  background-color: #000;
+}
+.th .xm-text,
+.mm .xm-text,
+.kh .xm-text {
+  line-height: 1.5 !important;
+}
+:lang(ko-KR),
+.kr {
+  word-break: keep-all;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+audio:not([controls]) {
+  height: 0;
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+
+
+b,
+strong {
+  font-weight: 700;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+  height: auto;
+}
+form {
+  margin: 0;
+}
+textarea {
+  vertical-align: top;
+  resize: vertical;
+  overflow: auto;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td {
+  vertical-align: top;
+}
+th,
+td {
+  padding: 0;
+}
+body,
+dl,
+dd,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+menu {
+  margin: 0;
+}
+ul,
+ol,
+menu {
+  padding: 0;
+  list-style: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 400;
+}
+.eco_name-72 {
+  font-size: 1.5rem;
+  line-height: 1.875rem;
+}
+.eco_name-64 {
+  font-size: 1.33333rem;
+  line-height: 1.66667rem;
+}
+.eco_kv-slogan {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+.eco_kv-ksp {
+  font-size: 0.625rem;
+  line-height: 0.91667rem;
+}
+.eco_kv-label {
+  border-radius: 0.08333rem;
+  font-size: 0.75rem;
+  line-height: 1.08333rem;
+}
+.eco_ksp-title {
+  font-size: 0.83333rem;
+  line-height: 1rem;
+}
+.eco_ksp-text {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+.eco_ksp-item {
+  padding: 1.04167rem;
+}
+.eco_title {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.eco_text,
+.eco_note {
+  font-size: 0.75rem;
+  line-height: 0.91667rem;
+}
+.eco_number {
+  font-size: 2.29167rem;
+  line-height: 2.29167rem;
+}
+.eco_note-text {
+  font-size: 0.75rem;
+  line-height: 0.91667rem;
+}
+.eco_specs-title {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+.eco_specs-label,
+.eco_specs-value {
+  font-size: 0.75rem;
+  line-height: 0.91667rem;
+}
+@font-face {
+  font-weight: 100;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Hairline.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 200;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-ExtraLight.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 300;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Light.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 400;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Regular.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 500;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Medium.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 600;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-SemiBold.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 700;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Bold.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 800;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Book.woff)
+    format("woff");
+}
+.slick-slider .slick-list,
+.slick-slider .slick-slider,
+.slick-slider .slick-track {
+  display: block;
+}
+.slick-slider .slick-slider {
+  position: relative;
+}
+.slick-slider .slick-list {
+  overflow: hidden;
+}
+.slick-slider .slick-slide {
+  float: left;
+  touch-action: pan-y;
+  height: 100%;
+  display: block;
+}
+.slick-slider .slick-dots {
+  flex-basis: auto;
+  position: absolute;
+  bottom: 0.33333rem;
+  left: 50%;
+  transform: translate(-50%);
+  display: flex !important;
+}
+.slick-slider .slick-dots li {
+  margin: 0 0.10417rem;
+  overflow: hidden;
+}
+.slick-slider .slick-dots li > button {
+  border: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.slick-slider .slick-dots li.slick-active > button {
+  background-color: #b0b0b0;
+}
+main {
+  font-size: 0.75rem;
+}
+
+.review-container {
+  background-color: #f5f5f5;
+  background-color: var(--background-base);
+  position: relative;
+}
+.swiper-container {
+  z-index: 1;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  list-style: none;
+  position: relative;
+  overflow: hidden;
+}
+.swiper-container-vertical > .swiper-wrapper {
+  flex-direction: column;
+}
+.swiper-wrapper {
+  z-index: 1;
+  box-sizing: content-box;
+  width: 100%;
+  height: 100%;
+  transition-property: transform;
+  display: flex;
+  position: relative;
+}
+.swiper-container-android .swiper-slide,
+.swiper-wrapper {
+  transform: translate(0, 0);
+}
+.swiper-container-multirow > .swiper-wrapper {
+  flex-wrap: wrap;
+}
+.swiper-container-multirow-column > .swiper-wrapper {
+  flex-flow: column wrap;
+}
+.swiper-container-free-mode > .swiper-wrapper {
+  margin: 0 auto;
+  transition-timing-function: ease-out;
+}
+.swiper-container-pointer-events {
+  touch-action: pan-y;
+}
+.swiper-container-pointer-events.swiper-container-vertical {
+  touch-action: pan-x;
+}
+.swiper-slide {
+  flex-shrink: 0;
+  width: 100%;
+  height: 100%;
+  transition-property: transform;
+  position: relative;
+}
+.swiper-slide-invisible-blank {
+  visibility: hidden;
+}
+.swiper-container-autoheight,
+.swiper-container-autoheight .swiper-slide {
+  height: auto;
+}
+.swiper-container-autoheight .swiper-wrapper {
+  align-items: flex-start;
+  transition-property: transform, height;
+}
+.swiper-container-3d {
+  perspective: 1200px;
+}
+.swiper-container-3d .swiper-cube-shadow,
+.swiper-container-3d .swiper-slide,
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top,
+.swiper-container-3d .swiper-wrapper {
+  transform-style: preserve-3d;
+}
+.swiper-container-3d .swiper-slide-shadow-bottom,
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right,
+.swiper-container-3d .swiper-slide-shadow-top {
+  pointer-events: none;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.swiper-container-3d .swiper-slide-shadow-left {
+  background-image: linear-gradient(270deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.swiper-container-3d .swiper-slide-shadow-right {
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5), transparent);
+}
+.swiper-container-3d .swiper-slide-shadow-top {
+  background-image: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+}
+.swiper-container-3d .swiper-slide-shadow-bottom {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent);
+}
+.swiper-container-css-mode > .swiper-wrapper {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow: auto;
+}
+.swiper-container-css-mode > .swiper-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.swiper-container-css-mode > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: start start;
+}
+.swiper-container-horizontal.swiper-container-css-mode > .swiper-wrapper {
+  scroll-snap-type: x mandatory;
+}
+.swiper-container-vertical.swiper-container-css-mode > .swiper-wrapper {
+  scroll-snap-type: y mandatory;
+}
+.div1 .div52 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 34.4583rem;
+  display: flex;
+  position: relative;
+}
+.div1 .div52 .image53 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 34.4583rem;
+}
+.div1 .div52 .point-box {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 0.79167rem;
+  display: flex;
+  position: absolute;
+  bottom: 11.0417rem;
+  left: 0.41667rem;
+}
+.div1 .div52 .point-box .flex-item {
+  z-index: 10;
+  box-sizing: border-box;
+  cursor: pointer;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 0.35417rem;
+  display: flex;
+  position: relative;
+}
+.div1 .div52 .point-box .flex-item .fourIntenseColors_point_box {
+  justify-content: center;
+  align-items: center;
+  width: 1.47917rem;
+  height: 1.41667rem;
+  display: flex;
+  position: relative;
+}
+.div1
+  .div52
+  .point-box
+  .flex-item
+  .fourIntenseColors_point_box
+  .fourIntenseColors_point1 {
+  opacity: 0;
+  justify-content: center;
+  align-items: center;
+  width: 1.47917rem;
+  height: 1.41667rem;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-position: 50% !important;
+}
+.div1
+  .div52
+  .point-box
+  .flex-item
+  .fourIntenseColors_point_box
+  .fourIntenseColors_point2 {
+  justify-content: center;
+  align-items: center;
+  width: 1rem;
+  height: 0.95833rem;
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-position: 50% !important;
+}
+.div1
+  .div52
+  .point-box
+  .text_active
+  .fourIntenseColors_point_box
+  .fourIntenseColors_point1 {
+  z-index: 10;
+  opacity: 1;
+}
+.div1 .div52 .point-box .phone_color_top {
+  color: #000;
+  width: 4.79167rem;
+  margin-left: 1.04167rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.div1 .div52 .slider-controls-mobile {
+  z-index: 10001;
+  visibility: visible;
+  background: #dedee2;
+  border-radius: 2rem;
+  justify-content: space-between;
+  min-width: 7rem;
+  padding: 0.45rem 0.35rem;
+  display: flex;
+  position: absolute;
+  bottom: -12.0833rem;
+  left: 17%;
+  transform: translate(-50%);
+}
+.div1 .div52 .scrollAuto {
+  z-index: 1;
+  width: 20.4375rem;
+  height: 17.9792rem;
+  margin-top: -32.625rem;
+}
+.div1 .div52 .scrollAuto .scroll-item {
+  z-index: 10;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 20.4375rem;
+  height: 17.9792rem;
+  position: relative;
+}
+.div1 .div52 .scrollAuto .slider-controls {
+  bottom: 0;
+  left: -0.08333rem;
+  transform: none;
+}
+.div1 .div52 .text-box {
+  z-index: 10;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  bottom: 6.25rem;
+  left: 1.04167rem;
+}
+.div1 .div52 .text-box .div63 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 17.7292rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1 .div52 .text-box .div63 .split_text3025 {
+  color: #000;
+  width: 18.4583rem;
+  font-size: 0.83333rem;
+}
+.div940 {
+  box-sizing: border-box;
+  background-color: #fff;
+  flex-direction: column;
+  align-items: center;
+  width: 20.4167rem;
+  height: 51.3542rem;
+  display: flex;
+  position: relative;
+}
+.div940 .div104 {
+  z-index: 6;
+  width: 20.4167rem;
+  position: absolute;
+  top: 2.8125rem;
+  left: 1.04167rem;
+}
+.div940 .div104 .div105 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 20.4167rem;
+  min-height: 40.6667rem;
+  display: flex;
+}
+.div940 .div104 .div105 .image106 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 40.6667rem;
+}
+.div940 .div104 .div105 .div107 {
+  z-index: 2;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 17.1667rem;
+  margin-top: -36.6458rem;
+  margin-left: -0.91667rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div107 .div108 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 17.1042rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div107 .div108 .split_text3008 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div940 .div104 .div105 .div107 .div109 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 13.5833rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div107 .div109 .split_text3007 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div940 .div104 .div105 .div107 .div110 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 17.1667rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div107 .div110 .split_text3006 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 0.83333rem;
+}
+.div940 .div104 .div105 .div111 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 18.4167rem;
+  min-height: 16.8958rem;
+  margin-top: 4.79167rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div112 {
+  box-sizing: border-box;
+  align-items: flex-start;
+  width: 18.4167rem;
+  min-height: 8.20833rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div112 .div113 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 8.95833rem;
+  min-height: 8.20833rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div112 .div113 .image114 {
+  z-index: 0;
+  width: 8.95833rem;
+  height: 8.20833rem;
+}
+.div940 .div104 .div105 .div111 .div112 .div113 .image115 {
+  z-index: 3;
+  width: 1.66667rem;
+  height: 1.64583rem;
+  margin-top: -7.10417rem;
+  margin-left: 1.16667rem;
+}
+.div940 .div104 .div105 .div111 .div112 .div113 .div116 {
+  z-index: 2;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 5.54167rem;
+  margin-top: 0.52083rem;
+  margin-left: 1.14583rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div112 .div113 .div116 .div117 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 5.52083rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div112
+  .div113
+  .div116
+  .div117
+  .split_text3003 {
+  color: #000;
+  width: 7.29167rem;
+  font-size: 0.75rem;
+}
+.div940 .div104 .div105 .div111 .div112 .div113 .div116 .div118 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1.5625rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div112
+  .div113
+  .div116
+  .div118
+  .split_text3002 {
+  color: #000;
+  width: 7.29167rem;
+  font-size: 0.625rem;
+}
+.div940 .div104 .div105 .div111 .div112 .div113 .div119 {
+  z-index: 1;
+  box-sizing: border-box;
+  align-items: baseline;
+  width: 5.1875rem;
+  margin-top: 0.5rem;
+  margin-left: 1.14583rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div112 .div113 .div119 .div120 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 2.4375rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div112
+  .div113
+  .div119
+  .div120
+  .split_text3001 {
+  color: #000;
+  width: 2.83333rem;
+  font-size: 2.14583rem;
+}
+.div940 .div104 .div105 .div111 .div112 .div113 .div119 .div121 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 2.29167rem;
+  margin-left: 0.45833rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div112
+  .div113
+  .div119
+  .div121
+  .split_text3000 {
+  color: #000;
+  width: 4.16667rem;
+  font-size: 0.85417rem;
+}
+.div940 .div104 .div105 .div111 .div112 .div122 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 8.95833rem;
+  min-height: 8.20833rem;
+  margin-left: 0.52083rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div112 .div122 .image123 {
+  z-index: 0;
+  width: 8.95833rem;
+  height: 8.20833rem;
+}
+.div940 .div104 .div105 .div111 .div112 .div122 .image124 {
+  z-index: 3;
+  width: 1.64583rem;
+  height: 1.64583rem;
+  margin-top: -7.10417rem;
+  margin-left: 1.16667rem;
+}
+.div940 .div104 .div105 .div111 .div112 .div122 .div125 {
+  z-index: 2;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 2.89583rem;
+  margin-top: 0.52083rem;
+  margin-left: 1.14583rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div112 .div122 .div125 .div126 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 2.89583rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div112
+  .div122
+  .div125
+  .div126
+  .split_text2999 {
+  color: #000;
+  width: 7.29167rem;
+  font-size: 0.75rem;
+}
+.div940 .div104 .div105 .div111 .div112 .div122 .div125 .div127 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1.5625rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div112
+  .div122
+  .div125
+  .div127
+  .split_text2998 {
+  color: #000;
+  width: 7.29167rem;
+  font-size: 0.625rem;
+}
+.div940 .div104 .div105 .div111 .div112 .div122 .div128 {
+  z-index: 1;
+  box-sizing: border-box;
+  align-items: baseline;
+  width: 5.1875rem;
+  min-height: 1.66667rem;
+  margin-top: 0.5rem;
+  margin-left: 1.14583rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div112 .div122 .div128 .div129 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 2.45833rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div112
+  .div122
+  .div128
+  .div129
+  .split_text2997 {
+  color: #000;
+  width: 2.83333rem;
+  font-size: 2.14583rem;
+}
+.div940 .div104 .div105 .div111 .div112 .div122 .div128 .div130 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 2.27083rem;
+  margin-left: 0.45833rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div112
+  .div122
+  .div128
+  .div130
+  .split_text2996 {
+  color: #000;
+  width: 4.16667rem;
+  font-size: 0.85417rem;
+}
+.div940 .div104 .div105 .div111 .div131 {
+  box-sizing: border-box;
+  align-items: flex-start;
+  width: 18.3958rem;
+  min-height: 8.20833rem;
+  margin-top: 0.47917rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div131 .div132 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 8.95833rem;
+  min-height: 8.20833rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div131 .div132 .image133 {
+  z-index: 0;
+  width: 8.95833rem;
+  height: 8.20833rem;
+}
+.div940 .div104 .div105 .div111 .div131 .div132 .image134 {
+  z-index: 3;
+  width: 1.66667rem;
+  height: 1.64583rem;
+  margin-top: -7.10417rem;
+  margin-left: 1.16667rem;
+}
+.div940 .div104 .div105 .div111 .div131 .div132 .div135 {
+  z-index: 2;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 5.70833rem;
+  margin-top: 0.52083rem;
+  margin-left: 1.14583rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div131 .div132 .div135 .div136 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 5.70833rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div131
+  .div132
+  .div135
+  .div136
+  .split_text2995 {
+  color: #000;
+  width: 7.29167rem;
+  font-size: 0.75rem;
+}
+.div940 .div104 .div105 .div111 .div131 .div132 .div135 .div137 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1.54167rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div131
+  .div132
+  .div135
+  .div137
+  .split_text2994 {
+  color: #000;
+  width: 7.29167rem;
+  font-size: 0.625rem;
+}
+.div940 .div104 .div105 .div111 .div131 .div132 .div138 {
+  z-index: 1;
+  box-sizing: border-box;
+  align-items: baseline;
+  width: 5.1875rem;
+  margin-top: 0.5rem;
+  margin-left: 1.14583rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div131 .div132 .div138 .div139 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 2.4375rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div131
+  .div132
+  .div138
+  .div139
+  .split_text2993 {
+  color: #000;
+  width: 2.83333rem;
+  font-size: 2.14583rem;
+}
+.div940 .div104 .div105 .div111 .div131 .div132 .div138 .div140 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 2.27083rem;
+  margin-left: 0.45833rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div131
+  .div132
+  .div138
+  .div140
+  .split_text2992 {
+  color: #000;
+  width: 4.16667rem;
+  font-size: 0.85417rem;
+}
+.div940 .div104 .div105 .div111 .div131 .div141 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 8.95833rem;
+  min-height: 8.20833rem;
+  margin-left: 0.52083rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div131 .div141 .image142 {
+  z-index: 0;
+  width: 8.95833rem;
+  height: 8.20833rem;
+}
+.div940 .div104 .div105 .div111 .div131 .div141 .image143 {
+  z-index: 3;
+  width: 1.66667rem;
+  height: 1.64583rem;
+  margin-top: -7.10417rem;
+  margin-left: 1.16667rem;
+}
+.div940 .div104 .div105 .div111 .div131 .div141 .div10101 {
+  z-index: 2;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 5.54167rem;
+  margin-top: 0.52083rem;
+  margin-left: 1.14583rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div131 .div141 .div10101 .div144 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 5.83333rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div131
+  .div141
+  .div10101
+  .div144
+  .split_text2991 {
+  color: #000;
+  width: 7.29167rem;
+  font-size: 0.75rem;
+}
+.div940 .div104 .div105 .div111 .div131 .div141 .div10101 .divupto {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1.54167rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div131
+  .div141
+  .div10101
+  .divupto
+  .split_text2994 {
+  color: #000;
+  width: 7.29167rem;
+  font-size: 0.625rem;
+}
+.div940 .div104 .div105 .div111 .div131 .div141 .div145 {
+  z-index: 1;
+  box-sizing: border-box;
+  align-items: baseline;
+  width: 6.85417rem;
+  margin-top: 0.5rem;
+  margin-left: 1.14583rem;
+  display: flex;
+}
+.div940 .div104 .div105 .div111 .div131 .div141 .div145 .div146 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 4.375rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div131
+  .div141
+  .div145
+  .div146
+  .split_text2990 {
+  color: #000;
+  width: 4.79167rem;
+  font-size: 2.14583rem;
+}
+.div940 .div104 .div105 .div111 .div131 .div141 .div145 .div147 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 1.97917rem;
+  margin-left: 0.45833rem;
+  display: flex;
+}
+.div940
+  .div104
+  .div105
+  .div111
+  .div131
+  .div141
+  .div145
+  .div147
+  .split_text2989 {
+  color: #000;
+  width: 2.5rem;
+  font-size: 0.85417rem;
+}
+.div940 .div104 .div148 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.4167rem;
+  display: flex;
+  position: absolute;
+  bottom: -4.375rem;
+  left: 0;
+}
+.div940 .div104 .div148 .div149 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.2917rem;
+  display: flex;
+}
+.div940 .div104 .div148 .div149 .split_text3005 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 19.6458rem;
+  font-size: 0.75rem;
+}
+.div940 .div104 .div148 .div150 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.4167rem;
+  display: flex;
+}
+.div940 .div104 .div148 .div150 .split_text3004 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 19.5833rem;
+  font-size: 0.75rem;
+}
+.div940 .long-life {
+  z-index: 5;
+  width: 20.4167rem;
+  position: absolute;
+  top: 2.8125rem;
+  left: 1.04167rem;
+}
+.div940 .long-life .div152 {
+  flex-direction: column;
+  align-items: center;
+  width: 20.4167rem;
+  min-height: 40.6667rem;
+  display: flex;
+}
+.div940 .long-life .div152 .image153 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 40.6667rem;
+}
+.div940 .long-life .div152 .div154 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.0833rem;
+  margin-top: -36.6458rem;
+  display: flex;
+}
+.div940 .long-life .div152 .div154 .div155 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 12.0417rem;
+  display: flex;
+}
+.div940 .long-life .div152 .div154 .div155 .split_text2988 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div940 .long-life .div152 .div154 .div156 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 16.4375rem;
+  display: flex;
+}
+.div940 .long-life .div152 .div154 .div156 .split_text2987 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div940 .long-life .div152 .div154 .div157 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.0833rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div940 .long-life .div152 .div154 .div157 .split_text2986 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 0.83333rem;
+}
+.div940 .long-life .div158 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.1667rem;
+  display: flex;
+  position: absolute;
+  bottom: -3.75rem;
+  left: 0;
+}
+.div940 .long-life .div158 .split_text2985 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 19.7292rem;
+  font-size: 0.75rem;
+}
+.div1 .div280 {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  height: 39.5833rem;
+  display: flex;
+}
+.div1 .div280 .image281 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 39.5833rem;
+}
+.div1 .div280 .scroll-container {
+  z-index: 10;
+  width: 20.4167rem;
+  min-height: 30.5625rem;
+  margin-top: -37.7083rem;
+}
+.div1 .div280 .scroll-container .slider-controls-mobile {
+  z-index: 10001;
+  visibility: visible;
+  background: #dedee2;
+  border-radius: 2rem;
+  justify-content: space-between;
+  min-width: 7rem;
+  padding: 0.45rem 0.35rem;
+  display: flex;
+  position: absolute;
+  bottom: -3.75rem;
+  left: 17%;
+  transform: translate(-50%);
+}
+.div1 .div280 .slide-item {
+  width: 20.4167rem;
+  position: relative;
+}
+.div1 .div280 .slide-item .slide-img {
+  width: 20.4167rem;
+  height: 30.5625rem;
+}
+.div1 .div280 .group-text {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+  position: absolute;
+  top: 4.375rem;
+  left: 2.5rem;
+}
+.div1 .div280 .group-text .div285 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 13.6875rem;
+  height: auto;
+  display: flex;
+}
+.div1 .div280 .group-text .div285 .div286 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 11.0417rem;
+  display: flex;
+}
+.div1 .div280 .group-text .div285 .div286 .split_text2930 {
+  color: #000;
+  width: 16.6667rem;
+  font-size: 1.08333rem;
+}
+.div1 .div280 .group-text .div285 .div287 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 13.6042rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1 .div280 .group-text .div285 .div287 .split_text2929 {
+  color: #000;
+  width: 16.6667rem;
+  font-size: 0.75rem;
+}
+.div1 .div280 .group-text .div289 {
+  z-index: 2;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.6042rem;
+  height: auto;
+  display: flex;
+}
+.div1 .div280 .group-text .div289 .div290 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 10.25rem;
+  display: flex;
+}
+.div1 .div280 .group-text .div289 .div290 .split_text2928 {
+  color: #000;
+  width: 16.6667rem;
+  font-size: 1.08333rem;
+}
+.div1 .div280 .group-text .div289 .div291 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 14.5417rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1 .div280 .group-text .div289 .div291 .split_text2927 {
+  color: #000;
+  width: 14.5833rem;
+  font-size: 0.75rem;
+}
+.div1 .div280 .group-text .div292 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 16.8542rem;
+  margin-top: 13.5rem;
+  display: flex;
+}
+.div1 .div280 .group-text .div292 .split_text2926 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 17rem;
+  font-size: 0.75rem;
+}
+.div1 .div280 .group-text .div295 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.0833rem;
+  height: auto;
+  display: flex;
+}
+.div1 .div280 .group-text .div295 .div296 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 12.3542rem;
+  display: flex;
+}
+.div1 .div280 .group-text .div295 .div296 .split_text2925 {
+  color: #000;
+  width: 16.6667rem;
+  font-size: 1.08333rem;
+}
+.div1 .div280 .group-text .div295 .div297 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.0208rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1 .div280 .group-text .div295 .div297 .split_text2924 {
+  color: #000;
+  width: 14.5833rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 {
+  z-index: 1;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 22.5rem;
+  margin: 0 auto;
+  display: flex;
+  overflow: hidden;
+}
+.div1.fly-birds-page_f56b28cc83 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.2;
+}
+.div1.fly-birds-page_f56b28cc83 .pin-spacer {
+  box-sizing: border-box;
+  width: 100%;
+}
+.div1.fly-birds-page_f56b28cc83 .div2 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22.5rem;
+  height: 35.7917rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div2 .image3 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 35.7917rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div2 .div4 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 11.7917rem;
+  margin-top: -31.2708rem;
+  margin-left: 1.5rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div2 .div4 .image5 {
+  width: 8.54167rem;
+  height: 1.64583rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div2 .div4 .prd-name {
+  color: #000;
+  justify-content: flex-start;
+  align-items: center;
+  width: 15.625rem;
+  font-size: 1.66667rem;
+  line-height: 1.2;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div2
+  .div4
+  .prd-name:not(
+    :-webkit-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div2
+  .div4
+  .prd-name:not(
+    :-moz-any(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div2
+  .div4
+  .prd-name:not(
+    :is(
+        :lang(ae),
+        :lang(ar),
+        :lang(arc),
+        :lang(bcc),
+        :lang(bqi),
+        :lang(ckb),
+        :lang(dv),
+        :lang(fa),
+        :lang(glk),
+        :lang(he),
+        :lang(ku),
+        :lang(mzn),
+        :lang(nqo),
+        :lang(pnb),
+        :lang(ps),
+        :lang(sd),
+        :lang(ug),
+        :lang(ur),
+        :lang(yi)
+      )
+  ) {
+  text-align: left;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div2
+  .div4
+  .prd-name:-webkit-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div2
+  .div4
+  .prd-name:-moz-any(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div2
+  .div4
+  .prd-name:is(
+    :lang(ae),
+    :lang(ar),
+    :lang(arc),
+    :lang(bcc),
+    :lang(bqi),
+    :lang(ckb),
+    :lang(dv),
+    :lang(fa),
+    :lang(glk),
+    :lang(he),
+    :lang(ku),
+    :lang(mzn),
+    :lang(nqo),
+    :lang(pnb),
+    :lang(ps),
+    :lang(sd),
+    :lang(ug),
+    :lang(ur),
+    :lang(yi)
+  ) {
+  text-align: right;
+}
+.div1.fly-birds-page_f56b28cc83 .div2 .div4 .div6 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 11.7708rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div2 .div4 .div6 .split_text3049 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 0.79167rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div2 .div4 .div7 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 8.375rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div2 .div4 .div7 .split_text3048 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 0.79167rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div2 .div4 .div8 {
+  color: #000;
+  margin-top: 0.875rem;
+  font-size: 0.66667rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 72.5417rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .image10 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 72.5417rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div11 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 20.4167rem;
+  min-height: 14.1667rem;
+  margin-top: -68.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div11 .image12 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 14.1667rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div11 .div13 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: center;
+  width: 12.6458rem;
+  min-height: auto;
+  margin-top: -8.33333rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div11 .div13 .div14 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 12.6458rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div11 .div13 .div14 .split_text3044 {
+  color: #000;
+  letter-spacing: 0;
+  text-align: center;
+  width: 18.3333rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div11 .div13 .div15 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 11.6667rem;
+  margin-top: 0.41667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div11 .div13 .div15 .split_text3043 {
+  color: #000;
+  text-align: center;
+  width: 18.3333rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div16 {
+  z-index: 1;
+  box-sizing: border-box;
+  align-items: flex-start;
+  width: 20.4167rem;
+  min-height: 16.5rem;
+  margin-top: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div16 .div17 {
+  flex-direction: column;
+  width: 9.89583rem;
+  min-height: 16.5rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div16 .div17 .image18 {
+  z-index: 0;
+  width: 9.89583rem;
+  height: 16.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div16 .div17 .div19 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 6.02083rem;
+  min-height: auto;
+  margin-top: -14.7917rem;
+  margin-left: 1.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div16 .div17 .div19 .div20 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 5.85417rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div9
+  .div16
+  .div17
+  .div19
+  .div20
+  .split_text3042 {
+  color: #000;
+  width: 7.70833rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div16 .div17 .div19 .div21 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 6.02083rem;
+  margin-top: 0.20833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div9
+  .div16
+  .div17
+  .div19
+  .div21
+  .split_text3041 {
+  color: #000;
+  width: 7.70833rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div16 .div22 {
+  flex-direction: column;
+  width: 9.89583rem;
+  min-height: 16.5rem;
+  margin-left: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div16 .div22 .image23 {
+  z-index: 0;
+  width: 9.89583rem;
+  height: 16.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div16 .div22 .div24 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 7.04167rem;
+  min-height: auto;
+  margin-top: -14.7917rem;
+  margin-left: 1.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div16 .div22 .div24 .div25 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 7.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div9
+  .div16
+  .div22
+  .div24
+  .div25
+  .split_text3040 {
+  color: #000;
+  width: 7.70833rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div16 .div22 .div24 .div26 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 5.14583rem;
+  margin-top: 0.20833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div9
+  .div16
+  .div22
+  .div24
+  .div26
+  .split_text3039 {
+  color: #000;
+  width: 7.70833rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div27 {
+  z-index: 1;
+  box-sizing: border-box;
+  align-items: flex-start;
+  width: 20.4167rem;
+  min-height: 18.2083rem;
+  margin-top: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div27 .div28 {
+  flex-direction: column;
+  width: 9.89583rem;
+  min-height: 18.2083rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div27 .div28 .image29 {
+  z-index: 0;
+  width: 9.89583rem;
+  height: 18.2083rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div27 .div28 .div30 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 7.70833rem;
+  min-height: auto;
+  margin-top: -16.3542rem;
+  margin-left: 1.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div27 .div28 .div30 .div31 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 7.66667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div9
+  .div27
+  .div28
+  .div30
+  .div31
+  .split_text3038 {
+  color: #000;
+  width: 8.33333rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div27 .div28 .div30 .div32 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 5.83333rem;
+  margin-top: 0.20833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div9
+  .div27
+  .div28
+  .div30
+  .div32
+  .split_text3037 {
+  color: #000;
+  width: 7.5rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div27 .div33 {
+  flex-direction: column;
+  width: 9.89583rem;
+  min-height: 18.2083rem;
+  margin-left: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div27 .div33 .image34 {
+  z-index: 0;
+  width: 9.89583rem;
+  height: 18.2083rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div27 .div33 .div35 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 5.58333rem;
+  min-height: auto;
+  margin-top: -16.3542rem;
+  margin-left: 1.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div27 .div33 .div35 .div36 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 5.5625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div9
+  .div27
+  .div33
+  .div35
+  .div36
+  .split_text3036 {
+  color: #000;
+  width: 7.29167rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div27 .div33 .div35 .div37 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 5.10417rem;
+  margin-top: 0.20833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div9
+  .div27
+  .div33
+  .div35
+  .div37
+  .split_text3035 {
+  color: #000;
+  width: 7.5rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div38 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.2292rem;
+  min-height: auto;
+  margin-top: 1.875rem;
+  margin-left: -0.47917rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div38 .div39 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.7708rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div38 .div39 .split_text3034 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 19.5833rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div38 .div40 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.6458rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div38 .div40 .split_text3033 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 19.5833rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div38 .div41 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 16.3542rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div38 .div41 .split_text3032 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 19.5833rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div38 .div42 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.2292rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div9 .div38 .div42 .split_text3031 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 19.5833rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div43 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22.5rem;
+  height: 49.1667rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div43 .image44 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 49.1667rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div43 .div45 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 8.875rem;
+  min-height: 2.5625rem;
+  margin-top: -44.8333rem;
+  margin-left: 1.54167rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div43 .div45 .div47 {
+  z-index: 1;
+  background: linear-gradient(90deg, #ffe05b, #ffd200);
+  border-radius: 1.5625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.70833rem 2.91667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div43 .div45 .div47 .split_text3030 {
+  color: #000;
+  text-align: center;
+  font-size: 0.95833rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div43 .div48 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15.3125rem;
+  min-height: auto;
+  margin-top: 3.125rem;
+  margin-left: 1.54167rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div43 .div48 .div49 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 13.125rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div43 .div48 .div49 .split_text3029 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div43 .div48 .div50 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15.3125rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div43 .div48 .div50 .split_text3028 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div43 .div51 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 17.6042rem;
+  margin-left: 1.54167rem;
+  display: flex;
+  position: absolute;
+  top: 38.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div43 .div51 .split_text3027 {
+  color: rgba(0, 0, 0, 0.45);
+  width: 17.8542rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 86.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .image74 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 86.625rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div75 {
+  z-index: 1;
+  flex-direction: column;
+  width: 20.4167rem;
+  min-height: 25.6875rem;
+  margin-top: -81.9583rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div75 .image76 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 25.6875rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div75 .div77 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 13.7083rem;
+  min-height: auto;
+  margin-top: -22.5rem;
+  margin-left: 2.08333rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div75 .div77 .div78 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 12.8333rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div75 .div77 .div78 .split_text3020 {
+  color: #000;
+  width: 15.2083rem;
+  font-size: 1.08333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div75 .div77 .div79 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 13.2917rem;
+  margin-top: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div75 .div77 .div79 .split_text3019 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 13.5417rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div80 {
+  z-index: 2;
+  flex-direction: column;
+  width: 20.4167rem;
+  min-height: 25.0417rem;
+  margin-top: 0.72917rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div80 .image81 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 25.0417rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div80 .div82 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.8542rem;
+  min-height: auto;
+  margin-top: -22rem;
+  margin-left: 2.08333rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div80 .div82 .div83 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 13rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div80 .div82 .div83 .split_text3018 {
+  color: #000;
+  width: 15.2083rem;
+  font-size: 1.08333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div80 .div82 .div84 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.8542rem;
+  margin-top: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div80 .div82 .div84 .split_text3017 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 15.2083rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div85 {
+  z-index: 1;
+  flex-direction: column;
+  width: 20.4167rem;
+  min-height: 25.0417rem;
+  margin-top: 0.72917rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div85 .image86 {
+  z-index: 0;
+  width: 20.4167rem;
+  height: 25.0417rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div85 .div87 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 10.4583rem;
+  min-height: auto;
+  margin-top: -21.875rem;
+  margin-left: 2.08333rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div85 .div87 .div88 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 10.4583rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div85 .div87 .div88 .split_text3016 {
+  color: #000;
+  width: 15.2083rem;
+  font-size: 1.08333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div85 .div87 .div89 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 7.79167rem;
+  margin-top: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div73 .div85 .div87 .div89 .split_text3015 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 15.2083rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div96 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22.5rem;
+  height: 30.9583rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div96 .image91 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 30.9583rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div96 .divtext {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -26.2083rem;
+  margin-left: 2.27083rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div96 .divtext .div97 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 7.10417rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div96 .divtext .div97 .split_text3012 {
+  color: #000;
+  width: 15.2083rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div96 .divtext .div98 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 7.10417rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div96 .divtext .div98 .split_text3011 {
+  color: #000;
+  width: 15.2083rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div96 .div95-1 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.5417rem;
+  margin-left: 1.45833rem;
+  display: flex;
+  position: absolute;
+  top: 24.7917rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div96 .div95-1 .split_text3013 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 15.875rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div92 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22.5rem;
+  height: 30.9583rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div92 .image93 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 30.9583rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div92 .div94 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 7.10417rem;
+  margin-top: -26.2083rem;
+  margin-left: 2.27083rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div92 .div94 .split_text3014 {
+  color: #000;
+  width: 15.2083rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div92 .div95 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.5417rem;
+  margin-left: 1.45833rem;
+  display: flex;
+  position: absolute;
+  top: 24.7917rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div92 .div95 .split_text3013 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 15.875rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div101 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 8.875rem;
+  margin-top: 6.25rem;
+  margin-left: 1.45833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div101 .div103 {
+  z-index: 1;
+  background: linear-gradient(90deg, #ffe05b, #ffd200);
+  border-radius: 1.5625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.70833rem 2.91667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div101 .div103 .split_text3009 {
+  color: #000;
+  text-align: center;
+  font-size: 0.95833rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 38.375rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .image160 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 38.375rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .div161 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.3958rem;
+  min-height: auto;
+  margin-top: -36.5417rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .div161 .div162 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 13.8542rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .div161 .div162 .split_text2984 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .div161 .div163 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.3333rem;
+  margin-top: 1.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .div161 .div163 .split_text2983 {
+  color: #000;
+  width: 19.375rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .div161 .div164 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 11.5833rem;
+  margin-top: 3.33333rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .div161 .div164 .split_text2982 {
+  color: #000;
+  letter-spacing: -0.02083rem;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(135deg, #fbd917, #ffd100, #ffd317) 0 0/100%
+    no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  width: 19.5833rem;
+  font-size: 1.08333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .div165 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.5rem;
+  min-height: auto;
+  display: flex;
+  position: absolute;
+  top: 32.0833rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .div165 .div166 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.4167rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .div165 .div166 .split_text2981 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 19.5833rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .div165 .div167 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.5rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div159 .div165 .div167 .split_text2980 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 19.5833rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div168 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 44.7917rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div168 .image169 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 44.7917rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div168 .div170 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.1042rem;
+  min-height: auto;
+  margin-top: -41.5417rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div168 .div170 .div171 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.0417rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div168 .div170 .div171 .split_text2979 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div168 .div170 .div172 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 17.8542rem;
+  margin-top: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div168 .div170 .div172 .split_text2978 {
+  color: #000;
+  width: 18.4583rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div168 .div173 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.5208rem;
+  display: flex;
+  position: absolute;
+  top: 34.375rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div168 .div173 .split_text2977 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 19.7083rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 {
+  z-index: 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 27.7292rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .image175 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 27.7292rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div176 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.0625rem;
+  min-height: auto;
+  margin-top: -25.0833rem;
+  margin-left: -0.39583rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div176 .div177 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 16.7292rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div176 .div177 .split_text2976 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div176 .div178 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.0625rem;
+  margin-top: 0.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div176 .div178 .split_text2975 {
+  color: #000;
+  width: 19.375rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div179 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.375rem;
+  margin-top: 4.20833rem;
+  margin-left: -1.08333rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div179 .div180 {
+  width: 18.375rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div179 .div180 .div181 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 6.45833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div179 .div180 .div181 .image182 {
+  width: 2.47917rem;
+  height: 1.20833rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div179 .div180 .div181 .div183 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 6.39583rem;
+  margin-top: 0.9375rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div174
+  .div179
+  .div180
+  .div181
+  .div183
+  .split_text2974 {
+  color: #000;
+  width: 10rem;
+  font-size: 0.875rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div179 .div180 .div184 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 7.875rem;
+  margin-left: 4.16667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div179 .div180 .div184 .image185 {
+  width: 2.29167rem;
+  height: 1.14583rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div179 .div180 .div184 .div186 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 7.8125rem;
+  margin-top: 0.9375rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div174
+  .div179
+  .div180
+  .div184
+  .div186
+  .split_text2973 {
+  color: #000;
+  width: 10rem;
+  font-size: 0.875rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div179 .div187 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 7.91667rem;
+  margin-top: 2.91667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div179 .div187 .image188 {
+  width: 2.5rem;
+  height: 1.20833rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div174 .div179 .div187 .div189 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 7.85417rem;
+  margin-top: 0.9375rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div174
+  .div179
+  .div187
+  .div189
+  .split_text2972 {
+  color: #000;
+  width: 10rem;
+  font-size: 0.875rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22.5rem;
+  height: 39.9167rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .image191 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 39.9167rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .div192 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  min-width: 8.875rem;
+  margin-top: -38.2083rem;
+  margin-left: 1.5rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .div192 .div194 {
+  z-index: 1;
+  background: linear-gradient(90deg, #ffe05b, #ffd200);
+  border-radius: 1.5625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.70833rem 2.91667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .div192 .div194 .split_text2971 {
+  color: #000;
+  text-align: center;
+  font-size: 0.95833rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .div195 {
+  z-index: 2;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.3333rem;
+  min-height: auto;
+  margin-top: 3.10417rem;
+  margin-left: 1.5rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .div195 .div196 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 16.1458rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .div195 .div196 .split_text2970 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .div195 .div197 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.3125rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .div195 .div197 .split_text2969 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .div195 .div198 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.6042rem;
+  margin-top: 1.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .div195 .div198 .split_text2968 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 19.6458rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .div199 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 17rem;
+  margin-left: 1.5rem;
+  display: flex;
+  position: absolute;
+  top: 33.125rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div190 .div199 .split_text2967 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 19.6042rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22.5rem;
+  height: 43.9583rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .image201 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 43.9583rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div202 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.5rem;
+  min-height: auto;
+  margin-top: -39.0417rem;
+  margin-left: 1.5rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div202 .div203 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.0833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div202 .div203 .split_text2966 {
+  color: #fff;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div202 .div204 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15.4167rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div202 .div204 .split_text2965 {
+  color: #fff;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div202 .div205 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.4583rem;
+  margin-top: 1.5625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div202 .div205 .split_text2964 {
+  color: #fff;
+  width: 19.5833rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div206 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.9167rem;
+  margin-left: 1.5rem;
+  display: flex;
+  position: absolute;
+  top: 32.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div206 .image207 {
+  width: 3.25rem;
+  height: 3.25rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div206 .div208 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.9167rem;
+  min-height: auto;
+  margin-top: 0.83333rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div206 .div208 .div209 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.2083rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div200
+  .div206
+  .div208
+  .div209
+  .split_text2963 {
+  color: rgba(255, 255, 255, 0.7);
+  width: 15.875rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div206 .div208 .div210 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 12.5417rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div200
+  .div206
+  .div208
+  .div210
+  .split_text2962 {
+  color: rgba(255, 255, 255, 0.7);
+  width: 15.8333rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div200 .div206 .div208 .div211 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.9167rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83
+  .div200
+  .div206
+  .div208
+  .div211
+  .split_text2961 {
+  color: rgba(255, 255, 255, 0.7);
+  width: 15.8333rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div212 {
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 38.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div212 .image213 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 38.625rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div212 .div214 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19rem;
+  min-height: auto;
+  margin-top: -34rem;
+  margin-left: -0.5rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div212 .div214 .div215 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 16.0417rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div212 .div214 .div215 .split_text2960 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div212 .div214 .div216 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.9583rem;
+  margin-top: 0.83333rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div212 .div214 .div216 .split_text2959 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 19.9167rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div217 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22.5rem;
+  height: 52.0833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div217 .image218 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 52.0833rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div217 .div219 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  min-width: 8.875rem;
+  min-height: 2.5625rem;
+  margin-top: -48.7708rem;
+  margin-left: 1.5rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div217 .div219 .div221 {
+  z-index: 1;
+  background: linear-gradient(90deg, #ffe05b, #ffd200);
+  border-radius: 1.5625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.70833rem 2.91667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div217 .div219 .div221 .split_text2958 {
+  color: #000;
+  text-align: center;
+  font-size: 0.95833rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div217 .div222 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 16.9583rem;
+  min-height: auto;
+  margin-top: 7.8125rem;
+  margin-left: 2.75rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div217 .div222 .div223 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 14.1667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div217 .div222 .div223 .split_text2957 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div217 .div222 .div224 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 13.9792rem;
+  margin-top: 0.20833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div217 .div222 .div224 .split_text2956 {
+  color: #000;
+  text-align: center;
+  width: 19.5833rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div217 .div222 .div225 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 16.9583rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div217 .div222 .div225 .split_text2955 {
+  color: #000;
+  text-align: center;
+  width: 17.2083rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 50.4167rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .image227 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 50.4167rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .div228 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.2708rem;
+  min-height: auto;
+  margin-top: -48.2292rem;
+  margin-left: -1.1875rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .div228 .div229 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 11.8542rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .div228 .div229 .split_text2954 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .div228 .div230 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 13.2292rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .div228 .div230 .split_text2953 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .div228 .div231 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 18.2708rem;
+  margin-top: 1.04167rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .div228 .div231 .split_text2952 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 19.2708rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .div232 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.0833rem;
+  margin-left: -0.5rem;
+  display: flex;
+  position: absolute;
+  top: 35.1042rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .div232 .div233 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.6667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .div232 .div233 .split_text2951 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 19.2917rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .div232 .div234 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.0833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div226 .div232 .div234 .split_text2950 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 19.3125rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div235 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 51.4583rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div235 .image236 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 51.4583rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div235 .div237 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 18.2708rem;
+  margin-top: -28.4583rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div235 .div237 .split_text2949 {
+  color: #fff;
+  text-align: center;
+  width: 19.6667rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div235 .div238 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 19.75rem;
+  display: flex;
+  position: absolute;
+  top: 35.8333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div235 .div238 .div239 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 19.75rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div235 .div238 .div239 .split_text2948 {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 19.8542rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div235 .div238 .div240 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 19.25rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div235 .div238 .div240 .split_text2947 {
+  color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  width: 19.7917rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div241 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 47.3333rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div241 .image242 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 47.3333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div241 .div243 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.1042rem;
+  margin-top: -45.2292rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div241 .div243 .image244 {
+  width: 17.6667rem;
+  height: 2.375rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div241 .div243 .div245 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.0625rem;
+  margin-top: 0.83333rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div241 .div243 .div245 .split_text2946 {
+  color: rgba(0, 0, 0, 0.7);
+  width: 19.5833rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div241 .div246 {
+  z-index: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.1042rem;
+  display: flex;
+  position: absolute;
+  top: 39.5833rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div241 .div246 .split_text2945 {
+  color: rgba(0, 0, 0, 0.5);
+  width: 19.5833rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div247 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 49.5417rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div247 .image248 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 49.5417rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div247 .div249 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.3125rem;
+  margin-top: -43.8125rem;
+  margin-left: -1.14583rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div247 .div249 .image250 {
+  width: 11.6875rem;
+  height: 2.60417rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div247 .div249 .div251 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.3125rem;
+  margin-top: 1.14583rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div247 .div249 .div251 .split_text2944 {
+  color: #000;
+  width: 19.1667rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div247 .div252 {
+  z-index: 1;
+  opacity: 0.7;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.6667rem;
+  margin-left: -0.875rem;
+  display: flex;
+  position: absolute;
+  top: 41.9792rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div247 .div252 .split_text2943 {
+  color: rgba(0, 0, 0, 0.5);
+  width: 19.5833rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div253 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22.5rem;
+  height: 41.6667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div253 .image254 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 41.6667rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div253 .div255 {
+  z-index: 2;
+  box-sizing: border-box;
+  flex-direction: column;
+  min-width: 8.875rem;
+  min-height: 2.5625rem;
+  margin-top: -39.6458rem;
+  margin-left: 1.45833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div253 .div255 .div257 {
+  z-index: 1;
+  background: linear-gradient(90deg, #ffe05b, #ffd200);
+  border-radius: 1.5625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.70833rem 2.91667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div253 .div255 .div257 .split_text2942 {
+  color: #000;
+  text-align: center;
+  font-size: 0.95833rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div253 .div258 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 11.1875rem;
+  margin-top: 3.33333rem;
+  margin-left: 1.41667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div253 .div258 .div259 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 3.9375rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div253 .div258 .div259 .split_text2941 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div253 .div258 .div260 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 11.1875rem;
+  margin-top: 0.41667rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div253 .div258 .div260 .split_text2940 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div261 {
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 36.4583rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div261 .image262 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 36.4583rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div261 .div263 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.5208rem;
+  margin-top: -35.7083rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div261 .div263 .div264 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 10.75rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div261 .div263 .div264 .split_text2939 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div261 .div263 .div265 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 15.4583rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div261 .div263 .div265 .split_text2938 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div261 .div263 .div266 {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 19.5208rem;
+  margin-top: 0.9375rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div261 .div263 .div266 .split_text2937 {
+  color: #000;
+  width: 19.5833rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div267 {
+  flex-direction: column;
+  align-items: center;
+  width: 22.5rem;
+  height: 40.625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div267 .image268 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 40.625rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div267 .div269 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.125rem;
+  margin-top: -37.7292rem;
+  margin-left: -1.45833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div267 .div269 .div270 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 10.1458rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div267 .div269 .div270 .split_text2936 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div267 .div269 .div271 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 14.3125rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div267 .div269 .div271 .split_text2935 {
+  color: #000;
+  width: 16.6667rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div267 .div269 .div272 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 18.125rem;
+  margin-top: 1.5625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div267 .div269 .div272 .split_text2934 {
+  color: #000;
+  width: 18.3333rem;
+  font-size: 0.83333rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div273 {
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 22.5rem;
+  height: 48.9583rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div273 .image274 {
+  z-index: 0;
+  width: 22.5rem;
+  height: 48.9583rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div273 .div275 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  min-width: 11.75rem;
+  min-height: 2.5625rem;
+  margin-top: -46.2083rem;
+  margin-left: 1.5625rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div273 .div275 .div277 {
+  z-index: 1;
+  background: linear-gradient(90deg, #ffe05b, #ffd200);
+  border-radius: 1.5625rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.70833rem 1.70833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div273 .div275 .div277 .split_text2933 {
+  color: #000;
+  text-align: center;
+  font-size: 0.95833rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div273 .div278 {
+  z-index: 2;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 12.1875rem;
+  margin-top: 3.41667rem;
+  margin-left: 1.45833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div273 .div278 .split_text2932 {
+  color: #000;
+  width: 12.5417rem;
+  font-size: 1.5rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div273 .div279 {
+  z-index: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 19.2917rem;
+  margin-left: 1.5625rem;
+  display: flex;
+  position: absolute;
+  top: 41.5625rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div273 .div279 .split_text2931 {
+  color: rgba(0, 0, 0, 0.4);
+  width: 19.375rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div299 {
+  box-sizing: border-box;
+  background-color: #fff;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 22.5rem;
+  padding-top: 3.33333rem;
+  padding-bottom: 3.33333rem;
+  display: flex;
+  position: relative;
+}
+.div1.fly-birds-page_f56b28cc83 .div299 .image300 {
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.div1.fly-birds-page_f56b28cc83 .div299 .div301 {
+  z-index: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.3542rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div299 .div301 .div302 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 2.29167rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div299 .div301 .div302 .split_text2923 {
+  color: #7d7d7d;
+  width: 19.4583rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div299 .div301 .div303 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.3125rem;
+  margin-top: 2.08333rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div299 .div301 .div303 .split_text2922 {
+  color: #7d7d7d;
+  width: 19.4583rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div299 .div301 .div304 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.0833rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div299 .div301 .div304 .split_text2921 {
+  color: #7d7d7d;
+  width: 19.4583rem;
+  font-size: 0.75rem;
+}
+.div1.fly-birds-page_f56b28cc83 .div299 .div301 .div305 {
+  flex-direction: column;
+  align-items: flex-start;
+  width: 19.3542rem;
+  display: flex;
+}
+.div1.fly-birds-page_f56b28cc83 .div299 .div301 .div305 .split_text2920 {
+  color: #7d7d7d;
+  width: 19.4583rem;
+  font-size: 0.75rem;
+}
+.f-thin {
+  font-weight: 100;
+}
+.f-extra {
+  font-weight: 200;
+}
+.f-light {
+  font-weight: 300;
+}
+.f-regular {
+  font-weight: 400;
+}
+.f-medium {
+  font-weight: 500;
+}
+.f-semi {
+  font-weight: 600;
+}
+.f-bold {
+  font-weight: 700;
+}
+.f-bolder {
+  font-weight: 800;
+}
+.f-heavy {
+  font-weight: 900;
+}
+.xm-price,
+.xm-button,
+.xm-navbar__nav-item {
+  font-weight: 400 !important;
+}
+
+@font-face {
+  font-weight: 100;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Hairline.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 200;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-ExtraLight.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 300;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Light.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 400;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Regular.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 500;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Medium.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 600;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-SemiBold.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 700;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Bold.woff)
+    format("woff");
+}
+@font-face {
+  font-weight: 800;
+  font-family: POCOTech;
+  src: url(https://i01.appmifile.com/webfile/globalimg/miv4/font/POCOTech/POCOTech-cool-Book.woff)
+    format("woff");
+}
+.poco {
+  font-family: POCOTech;
+}
+.specs-con {
+  background-color: #fff;
+}
