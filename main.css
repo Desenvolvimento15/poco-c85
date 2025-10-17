@@ -13,7 +13,17 @@ body > img {
   top: 0;
   left: 0;
 }
-
+.xm-link {
+  text-decoration: none;
+  display: inline-block;
+}
+.xm-link.xm-button {
+  background-color: transparent;
+  background-color: initial;
+}
+.xm-button {
+  padding: 0.04688rem;
+}
 .xm-text {
   display: inline-block;
   white-space: break-spaces !important;
@@ -32,7 +42,6 @@ body > img {
 .hide {
   display: none !important;
 }
-
 .xm-page-hide {
   height: 0;
   position: absolute;
@@ -44,22 +53,12 @@ body > img {
 .xm-img {
   color: transparent;
 }
-
 .xm-img[src=""],
 .xm-img:not([src]) {
   visibility: hidden;
 }
 .xm-picture {
   display: inline-flex;
-}
-html[data-mi-dir="rtl"] .xm-text,
-.gcc .xm-text,
-.sa .xm-text,
-.ma-ar .xm-text,
-.ae-ar .xm-text,
-.sa-ar .xm-text,
-.eg .xm-text {
-  display: block;
 }
 .section {
   background-repeat: no-repeat;
@@ -119,7 +118,13 @@ audio:not([controls]) {
 template {
   display: none;
 }
-
+a {
+  background-color: transparent;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
 abbr[title] {
   border-bottom: 0.00391rem dotted;
 }
@@ -134,10 +139,7 @@ h1 {
   margin: 0.67em 0;
   font-size: 2em;
 }
-mark {
-  color: #000;
-  background: #ff0;
-}
+
 small {
   font-size: 80%;
 }
@@ -189,6 +191,10 @@ th {
   padding: 0;
 }
 
+
+p > a:hover {
+  text-decoration: underline;
+}
 ul,
 li,
 dl,
@@ -211,6 +217,7 @@ sup {
 sub {
   bottom: -0.25em;
 }
+
 
 @font-face {
   font-weight: 100;
@@ -270,11 +277,7 @@ main {
 }
 
 
-.review-container {
-  background-color: #f5f5f5;
-  background-color: var(--background-base);
-  position: relative;
-}
+
 .swiper-container {
   z-index: 1;
   margin-left: auto;
@@ -333,6 +336,23 @@ main {
 .swiper-container-autoheight .swiper-wrapper {
   align-items: flex-start;
   transition-property: transform, height;
+}
+.swiper-container-css-mode > .swiper-wrapper {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow: auto;
+}
+.swiper-container-css-mode > .swiper-wrapper::-webkit-scrollbar {
+  display: none;
+}
+.swiper-container-css-mode > .swiper-wrapper > .swiper-slide {
+  scroll-snap-align: start start;
+}
+.swiper-container-horizontal.swiper-container-css-mode > .swiper-wrapper {
+  scroll-snap-type: x mandatory;
+}
+.swiper-container-vertical.swiper-container-css-mode > .swiper-wrapper {
+  scroll-snap-type: y mandatory;
 }
 .div1 .div51 {
   box-sizing: border-box;
@@ -4414,7 +4434,11 @@ main {
 .f-heavy {
   font-weight: 900;
 }
-
+.xm-price,
+.xm-button,
+.xm-navbar__nav-item {
+  font-weight: 400 !important;
+}
 
 .poco {
   font-family: POCOTech;
